@@ -1,5 +1,5 @@
 # NOTE: update this with your service name
-service: notes-app-2-api
+service: notes-app-api
 
 # Create an optimized package for our functions 
 package:
@@ -20,7 +20,7 @@ custom:
 provider:
   name: aws
   runtime: nodejs12.x
-  stage: dev
+  stage: prod
   region: us-east-1
 
     # These environment variables are made available to our functions
